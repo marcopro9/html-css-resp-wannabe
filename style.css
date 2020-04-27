@@ -71,3 +71,55 @@ img {
 .clear {
   clear: both;
 }
+
+/* media query 420px */
+
+@media screen and (max-width: 420px) {
+  /* regole generali */
+  #lezioni .row > .left, #lezioni .row > .right,
+  #steps .row > .left, #steps .row > .central, #steps .row > .right {
+    width: 100%;
+    float: none;
+    padding-bottom: 50px;
+  }
+  #lezioni .row > .left img, #lezioni .row > .right img,
+  #steps .row > .left img, #steps .row > .central img, #steps .row > .right img {
+    height: 150px;
+  }
+  #why .row > .first, #why .row > .second, #why .row > .third{
+    margin: 0px 0px 50px;
+  }
+  #why .row > .first img, #why .row > .second img, #why .row > .third img{
+    height: 100px;
+  }
+  /* fine regole generali */
+
+  /* inizio tipografia */
+  h1{
+    font-size: 35px;
+    margin-top: 0px;
+    padding: 30px 0;
+  }
+  h3{
+    font-size: 25px;
+    margin-top: 0px;
+    padding-top: 15px;
+  }
+  body{
+    font-size: 20px;
+    margin-top: 0px;
+    padding: 15px 0 ;
+  }
+  /* fine tipografia */
+
+  /* inizio stili */
+  #lezioni{
+    background-color: #dcedc1;
+  }
+  #steps{
+    background-color: #f3e0fb;
+  }
+  #why{
+    background-color: #FFFFA0;
+  }
+   /* fine stili */
