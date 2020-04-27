@@ -76,6 +76,10 @@ img {
 
 @media screen and (max-width: 420px) {
   /* regole generali */
+  .row{
+    width:100%;
+    margin: 0;
+  }
   #lezioni .row > .left, #lezioni .row > .right,
   #steps .row > .left, #steps .row > .central, #steps .row > .right {
     width: 100%;
@@ -105,11 +109,9 @@ img {
     margin-top: 0px;
     padding-top: 15px;
   }
-  body{
+  /* body{
     font-size: 20px;
-    margin-top: 0px;
-    padding: 15px 0 ;
-  }
+  } */
   /* fine tipografia */
 
   /* inizio stili */
@@ -123,3 +125,4 @@ img {
     background-color: #FFFFA0;
   }
    /* fine stili */
+}
